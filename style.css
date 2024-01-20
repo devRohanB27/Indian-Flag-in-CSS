@@ -1,7 +1,9 @@
 .flag{
     height: 600px;
     width: 900px;
-    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 10px;
 }
 #saffron{
     background-color: orangered;
@@ -49,4 +51,15 @@
     top: 82px;
     margin: 0;
     padding: 0;
+}
+body{
+    background-image: linear-gradient(orangered, white, rgb(0, 103, 0));
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 13px;
+    padding-top: 10.5px;
+
 }
